@@ -24,7 +24,7 @@ Always enjoy feedback and suggestions.
 
 Help
 ----
-<pre>$  python tilde_enum.py -h
+<pre>$  python3 tilde_enum.py -h
 usage: tilde_enum.py [-h] [-c COOKIE] [-d PATH_WORDLISTS] [-e PATH_EXTS] [-f]
                      [-g] [-o OUT_FILE] [-p PROXY] [-u URL] [-v VERBOSE_LEVEL]
                      [-w WAIT] [--ignore-ext PATH_EXTS_IGNORE]
@@ -32,7 +32,7 @@ usage: tilde_enum.py [-h] [-c COOKIE] [-d PATH_WORDLISTS] [-e PATH_EXTS] [-f]
 
 Exploits and expands the file names found from the tilde enumeration vuln
 
-optional arguments:
+options:
   -h, --help            show this help message and exit
   -c COOKIE             Cookie Header value
   -d PATH_WORDLISTS     Path of wordlists file
